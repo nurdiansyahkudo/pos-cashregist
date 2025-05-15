@@ -1,5 +1,5 @@
 {
-  "name": "POS Cash Register Open via QZ Tray",
+  "name": "POS Cash Register Open",
   "version": "1.0",
   "depends": ["point_of_sale"],
   "author": "PT Lintang Utama Infotek",
