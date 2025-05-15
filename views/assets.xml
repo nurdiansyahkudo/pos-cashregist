@@ -1,5 +1,5 @@
 <odoo>
-    <template id="assets_pos" inherit_id="point_of_sale.assets" name="pos cash drawer open assets">
+    <template id="assets" inherit_id="point_of_sale.assets" name="pos cash drawer open assets">
         <xpath expr="." position="inside">
             <script type="module" src="/pos_cashregist/static/src/js/openRegister.js"></script>
         </xpath>
