@@ -4,6 +4,11 @@
   "depends": ["point_of_sale"],
   "author": "PT Lintang Utama Infotek",
   "category": "Point of Sale",
+  "assets": {
+        "point_of_sale.assets": [
+            "pos_cashregist/static/src/js/openRegister.js",
+        ],
+    },
   "data": [
         'views/assets.xml',
     ],
