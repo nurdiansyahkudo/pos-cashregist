@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <odoo>
-  <template id="assets" inherit_id="point_of_sale.assets">
-    <xpath expr="." position="inside">
-      <script type="text/javascript" src="/pos_cashregist/static/src/js/openRegister.js"/>  
-    </xpath>
-  </template>>
+    <template id="assets_pos" inherit_id="point_of_sale.assets" name="pos cash drawer open assets">
+        <xpath expr="." position="inside">
+            <script type="module" src="/pos_cashregist/static/src/js/openRegister.js"></script>
+        </xpath>
+    </template>
 </odoo>
